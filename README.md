@@ -1,2 +1,4 @@
 # homework-week2
 portfolio website first run
+
+When I started working on this assignment I had a hard time with using the proper commands and syntax.  Also, I couldn't envision the layout of what I was trying to create.  I made it harder for myself by making design/aesthetic decisions without having a plan.  Instead of "re-inventing" the wheel, I tried to follow the instructions from the homework.  The index page is mostly filler although it is responsive.  I tried to make the form work on the forms page and the portfolio page has bootstrap rows/columns and sub-rows and sub-columns.  I was going to add more symbols, icons and logos but I wanted to experiment with positioning first which is why my CSS has all the different shapes defined but ultimately I didn't see a reason to use them once the website was readiy to be submitted.  The navigation bar and footer are the same for each page.  I hope to keep working on this page going forward.

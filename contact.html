@@ -7,163 +7,166 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="style.css">
 
     <style>
-        
+
+
     </style>
 
 </head>
 
 <body>
 
-        <nav style="box-shadow: 0 4px 4px -2px rgba(0,0,0,.2); background-color:rgb(16, 209, 177); padding:10px" class="navbar navbar-expand-lg navbar-light bg-light;">
-            <strong style="font-family: 'Permanent Marker', cursive; font-size:x-large" class= "navbar-brand">Arthur John Hauser</strong>
-    
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-  
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <header style="background-color: black;">
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="https://www.linkedin.com/in/arthur-hauser-63588930/">
+            
+            <strong style="font-family: 'Abril Fatface', cursive; word-spacing: 5px; letter-spacing: 2px;">
+            <span style="color:red;" >ART</span>HUR JOHN<span style="color: red;"> HAUS</span>ER</a>
+            </strong>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+              
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
+                  
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
                     </li>
+                  
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">portfolio</a>
                     </li>
+                  
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">contact</a>
                     </li>
-        
-                    <li class="nav-item dropdown">
-        
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        
-                        <!--These links below are under construction!-->
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Hound</a>
-                        </div>
-                        </li>
-                </ul>
-    </div>
-  </nav> 
-  
-<!--Section: Contact v.2-->
-<section class="mb-4">
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me!</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
-
-    <div style="width:500px; align-items: center;" class="row">
-
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="hound.html">hound</a>
+                    </li>
+                </ul>        
             </div>
-            <div class="status"></div>
+        </nav>
+    </header>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="container">
+
+        <form class="form-horizontal">
+            <div class="row" style="width: 300px;">
+                <div class="col">	
+                    <div class="form-group">
+                        <label for="fname" class="control-label col-xs-12 col-sm-3 col-md-6 col-lg-12;">First Name</label>
+                            <input class="form-control input-sm" type="text" id="fname" placeholder="First Name" style="background-color:white;">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form class="form-horizontal">
+            <div class="row" style="width: 300px;">
+                <div class="col">	
+                    <div class="form-group">
+                        <label for="fname" class="control-label col-xs-12 col-sm-3 col-md-6 col-lg-12;">Last Name</label>
+                        <input class="form-control input-sm" type="text" id="lname" placeholder="Last Name">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form class="form-horizontal">
+            <div class="row" style="width: 300px;">
+                <div class="col">	
+                <div class="form-group">
+                        <label for="email" class="control-label col-xs-12 col-sm-3 col-md-6 col-lg-12;">Your email</label>
+                        <input type="text" id="email" name="email" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form class="form-horizontal">
+            <div class="row" style="width: 300px">
+                <div class="col">	
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 col-md-6 col-lg-12;" for="subject">Subject</label>
+                            <br />
+                                <textarea id="subject" name="subject" placeholder="Write something here.." style="height:200px; width: 400px;">
+                                </textarea>
+                            
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form class="form-horizontal">
+            <div class="row" style="width: 300px;">
+                <div class="col">
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 col-md-6 col-lg-12;" for="preferred Ravnican guild">Ravnican Guild (optional)</label>
+                        <select id="guild" name="preferred Ravnican Guild" class="form-control">
+                            <option value="" selected disabled>..or are you not into MTG?</option>
+                            <option value="Azorius Senate">Azorius Senate</option>
+                            <option value="House Dimir">House Dimir</option>
+                            <option value="Cult of Rakdos">Cult of Rakdos</option>
+                            <option value="Gruul Clans">Gruul Clans</option>
+                            <option value="Orzhov Syndicate">Orzhov Syndicate</option>
+                            <option value="Golgari Swarm">Golgari Swarm</option>
+                            <option value="Simic Combine">Simic Combine</option>
+                            <option value="what?">What the hell are you talking about</option>
+                        </select>
+                    </div>
+                </div>	
+            </div>
+        </form>
+
+        <button type="submit" class="btn btn-primary">Submit</button>  
+<br />
+<br />
+<br />
+
+</div>    
+
+ 
+
+<footer class="footer">
+        <p class="pull-left">
+            <span class="text-muted">  Houndini & Co. © 2020</span>
+        </p>
+        <div class="pull-right">
+           
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Brooklyn, NY 12345, USA</p>
-                </li>
-
-                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>917 555 5555</p>
-                </li>
-
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p><houndini@aol class="com"></houndini@aol></p>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
-
-    </div>
-
-</section>
-<!--Section: Contact v.2-->
+</footer>
+    
 
 
 
 
 
 
+    
+    
+     
+        <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+        <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      
+</body>
+      
 
+</html>
 
-    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  
-    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  
-  </body>
-  
-  </html>
